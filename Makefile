@@ -1,6 +1,6 @@
 PYTHON ?= python
 
-.PHONY: reproduce simulate plot
+.PHONY: reproduce simulate plot test
 
 reproduce: simulate plot
 
@@ -9,3 +9,6 @@ simulate:
 
 plot:
 	$(PYTHON) -m src.plot_results
+
+test:
+	$(PYTHON) -m pytest
