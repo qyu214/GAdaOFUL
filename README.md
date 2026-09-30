@@ -67,6 +67,8 @@ Run:
 make reproduce
 ```
 
+A full reproduction takes approximately 30 minutes on the tested machine; runtime may vary depending on hardware.
+
 This command runs all simulation repetitions using fixed random seeds, saves the generated trajectories to `artifacts/trajectories/`, aggregates the repeated runs, and generates:
 
 ```text
