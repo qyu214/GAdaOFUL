@@ -46,6 +46,8 @@ The trajectory files in `artifacts/trajectories/` are generated intermediate out
 
 The project has been tested with Python 3.13.15.
 
+The workflow also requires `make`, available by default on most macOS and Linux development environments.
+
 From the repository root, create and activate a virtual environment:
 
 ```bash
@@ -105,3 +107,4 @@ After running `make reproduce`, the main output is:
 
 ```text
 results/figures/cor+nonlin1.pdf
+```
